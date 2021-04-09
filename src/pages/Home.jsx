@@ -22,7 +22,6 @@ function Home({ items }) {
               <PizzaBlock key={obj.id} {...obj} 
               />
             ))}
-            <PizzaBlock />
           </div>
         </div>
     )

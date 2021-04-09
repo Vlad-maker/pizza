@@ -3,7 +3,7 @@
       {
         "id": 0,
         "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
-        "name": "Пепперони Фреш с перцем",
+        "name": "Пепперони с перцем 🌶️🌶️",
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 495,
@@ -13,7 +13,7 @@
       {
         "id": 1,
         "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
-        "name": "Сырная",
+        "name": "Сырная 🧀",
         "types": [0],
         "sizes": [26, 40],
         "price": 245,
@@ -53,7 +53,7 @@
       {
         "id": 5,
         "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
-        "name": "Крэйзи пепперони",
+        "name": "Крэйзи пепперони 🌶️",
         "types": [0],
         "sizes": [30, 40],
         "price": 595,
