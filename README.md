@@ -1,10 +1,11 @@
 # Проект: React Pizza  
-Аналог сайта для заказа пиццы.
+Аналог сайта доставки пиццы.
 
 **Возможности:**
-- [x] фильтры по категориям
-- [x] выбор теста
-- [x] выбор размера
+- [x] Фильтры товаров по категориям
+- [x] Сортировка по цене/популярности
+- [x] Выбор толщины теста
+- [x] Выбор размера пиццы
 
 ##### Будущие обновления:
 - [ ] Сверстать корзину
@@ -12,10 +13,10 @@
 
 **Технологии:**  
 
-<img align="left" width="22px" src="https://simpleicons.org/icons/html5.svg" />
-<img align="left" width="22px" src="https://simpleicons.org/icons/css3.svg" />
-<img align="left" width="22px" src="https://simpleicons.org/icons/javascript.svg" />
-<img align="left" width="22px" src="https://simpleicons.org/icons/webpack.svg" />
+<img align="left" width="28px" color="red" src="https://simpleicons.org/icons/react.svg" />
+<img align="left" width="28px" src="https://simpleicons.org/icons/redux.svg" />
+<img align="left" width="28px" src="https://simpleicons.org/icons/javascript.svg" />
+<img align="left" width="28px" src="https://simpleicons.org/icons/npm.svg" />
 
 </br>  
 
