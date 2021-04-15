@@ -21,6 +21,7 @@
     "camelcase": "^6.1.0",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
     "classnames": "^2.2.6",
+    "content-loader": "^1.0.0",
     "css-loader": "4.3.0",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
@@ -56,12 +57,14 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-app-polyfill": "^2.0.0",
+    "react-content-loader": "^6.0.3",
     "react-dev-utils": "^11.0.3",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.3",
     "react-refresh": "^0.8.3",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "^10.0.5",
@@ -154,5 +157,5 @@
     "presets": [
       "react-app"
     ]
-  } 
+  }
 }
