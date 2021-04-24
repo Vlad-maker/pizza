@@ -21,7 +21,6 @@ const Categories = React.memo(function Categories({ activeCategory, items, onCli
             </div>
     );
 })
-
 Categories.propTypes = {
   activeCategory: PropTypes.oneOf([PropTypes.number, null]),
   items: PropTypes.arrayOf(PropTypes.string).isRequired,
@@ -29,6 +28,5 @@ Categories.propTypes = {
 };
 
 Categories.defaultProps = { activeCategory: null, items: [] };
-
 export default Categories;
 

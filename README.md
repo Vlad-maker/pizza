@@ -26,7 +26,7 @@
 <img align="left" width="28px" src="https://simpleicons.org/icons/npm.svg" /> -->
 
 </br>  
-
+ 
 ## Запуск
 Для того, чтобы запустить проект, сначала нужно установить в него библиотеки npm командой:
 ### `npm install`
