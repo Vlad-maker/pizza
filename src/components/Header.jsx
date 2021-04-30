@@ -1,34 +1,37 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+
 import logoSvg from '../assets/img/pizza-logo.svg';
-import Button from '../components/Button';
+import Button from './Button';
 
 function Header() {
-return(
+  const { totalPrice, totalCount } = useSelector(({ cart }) => cart);
+
+  return (
     <div className="header">
-        <div className="container">
+      <div className="container">
         <Link to="/">
           <div className="header__logo">
             <img width="38" src={logoSvg} alt="Pizza logo" />
             <div>
-              <h1>Saint-Pizza</h1>
-              <p>самая реактивная пицца во вселенной</p>
+              <h1>React Pizza</h1>
+              <p>самая вкусная пицца во вселенной</p>
             </div>
           </div>
-          </Link>
-          
-          <div className="header__cart">  
+        </Link>
+
+        <div className="header__cart">
           <Link to="/cart">
-          <Button className="button--cart">
-            <span>520 ₽</span>
+            <Button className="button--cart">
+              <span>{totalPrice} ₽</span>
               <div className="button__delimiter"></div>
               <svg
                 width="18"
                 height="18"
                 viewBox="0 0 18 18"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M6.33333 16.3333C7.06971 16.3333 7.66667 15.7364 7.66667 15C7.66667 14.2636 7.06971 13.6667 6.33333 13.6667C5.59695 13.6667 5 14.2636 5 15C5 15.7364 5.59695 16.3333 6.33333 16.3333Z"
                   stroke="white"
@@ -51,13 +54,13 @@ return(
                   strokeLinejoin="round"
                 />
               </svg>
-              <span>3</span>
+              <span>{totalCount}</span>
             </Button>
-          </Link>   
-          </div>
+          </Link>
         </div>
       </div>
-)
+    </div>
+  );
 }
 
 export default Header;
