@@ -5,11 +5,9 @@ const CartItem = ({ id, name, type, size, totalPrice, totalCount, onRemove, onMi
   const handleRemoveClick = () => {
     onRemove(id);
   };
-
   const handlePlusItem = () => {
     onPlus(id);
   };
-
   const handleMinusItem = () => {
     onMinus(id);
   };
