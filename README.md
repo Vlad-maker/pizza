@@ -11,24 +11,19 @@
   
 **Технологии:**  
 
-<img align="left" alt="React" width="28px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img align="left" alt="Redux" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img align="left" alt="Npm" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png" />
+<img align="left" alt="Css" width="30px" src="./src/assets/img/css3.svg" />
+<img align="left" alt="JavaScript" width="30px" src="./src/assets/img/javascript.svg" />
+<img align="left" alt="React" width="30px" src="./src/assets/img/reactRM.svg" />
+<img align="left" alt="Redux" width="30px" src="./src/assets/img/redux.svg" />
+<img align="left" alt="Node" width="30px" src="./src/assets/img/node.svg" />
 
-<!-- <img align="left" width="28px" src="https://simpleicons.org/icons/react.svg" />
-<img align="left" width="28px" src="https://simpleicons.org/icons/redux.svg" />
-<img align="left" width="28px" src="https://simpleicons.org/icons/javascript.svg" />
-<img align="left" width="28px" src="https://simpleicons.org/icons/sass.svg" />
-<img align="left" width="28px" src="https://simpleicons.org/icons/npm.svg" /> -->
 
 </br>  
  
 ## Запуск
-Проект использует [JSon Server](https://github.com/typicode/json-server), поэтому для запуска проекта сначала используйте команду:
+Проект использует [JSon Server](https://github.com/typicode/json-server), поэтому для запуска проекта сначала нужно скачать архив с проектом, затем загрузить node_modules.
+Далее запускаем локальный сервер командой:
 ### `yarn server` или `npm run server`
 Для запуска проекта на локальном сервере используйте команду:
 ### `yarn start` или `npm run start`
-Для сборки приложения используйте:  
-### `yarn build` или `npm run build`
 
